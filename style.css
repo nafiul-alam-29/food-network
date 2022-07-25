@@ -47,3 +47,15 @@ p {
   font-weight: 800px;
   border-radius: 50px;
 }
+.top-part {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+
+.half-width img {
+  width: 100%;
+}
