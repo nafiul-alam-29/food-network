@@ -31,9 +31,17 @@ h1 {
   font-size: 60px;
   margin: 0;
 }
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+}
 h3 {
   font-size: 80px;
   margin-top: 20%;
+}
+h4 {
+  font-size: 50px;
 }
 p {
   font-size: 20px;
@@ -78,4 +86,48 @@ p {
 
 p {
   font-size: 40px;
+}
+.recipies-part {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.recipie-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 250px;
+}
+.recipie-content img {
+  width: 600px;
+  margin-top: 5%;
+}
+
+.recipie-blog1 {
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 16px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 50px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 50px;
+}
+.social-media p {
+  font-size: 20px;
+}
+.social-media h4 {
+  font-size: 80px;
+  margin-bottom: -2px;
 }
